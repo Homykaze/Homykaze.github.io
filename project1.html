@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Pathfinding project</title>
+		<link rel="stylesheet" type="text/css" href="CSS/styles1.css">
+		<link rel="shortcut icon" type="image/png" href="Images/logo.jpg">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name = "viewport" content = "width=device-width">
+		<meta name = "description" content = "Software developer">
+		<meta name = "author" content = "Egor Frygin">
+		<meta name = "keywords" content = "Software developer, Web developer, Software Engineer, Mechanical Engineer, Egor Frygin, Efrygin">
+	</head>
+
+<body>
+
+<!--same on each page-->
+		<section class = "preheader">
+			EFRYGIN.000WEBHOSTAPP.COM | <span class = "contact1" onclick = "on()">Email: efrygine@mail.ru | Phone: +358403680863</span>
+		</section>
+		<div class = "imaging">
+			<header>
+				<div class = "heading">
+					<nav>
+						<ul class = "links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#"><span class = "current">Pathfinder</span></a></li>
+							<li><a href="project2.html">Speed typing test</a></li>
+							<li><a href="#" onclick="alert('This project is currently unavailable')">Geometrical splitter</a></li>
+							<li><a href="#" onclick="alert('This project is currently unavailable')">Sorting visualizer</a></li>
+						</ul>
+					</nav>
+            </header>
+            <header>
+				<div class = "heading">
+					<nav>
+						<ul class = "buttons">
+							<li><button class = "startbutton" onclick = "changestart()">Change start</button></li>
+							<li><button class = "finishbutton" onclick = "changefinish()">Change finish</button></li>
+							<li><button class = "mazebutton" onclick = "generatemaze()">Generate maze</button></li>
+							<li><button class = "pathbutton" onclick = "generatepath()">Generate path</button></li>
+							<li><button class = "clearbutton" onclick = "clearpath()">Clear path</button></li>
+							<li><button class = "clearbutton" onclick = "clearboard()">Clear board</button></li>							
+						</ul>
+					</nav>
+            </header>
+        </div>
+<!--same on each page-->
+
+<!--tiles-->
+		<section id = "gridarea">
+			<div class = "scripting-area">
+				<table id = "output">
+					<script type="text/javascript" src = "JS/Pathfinder/pathfinder.js" defer></script>
+				</table>
+			</div>
+		</section>
+<!--tiles-->
+	
+		<footer>
+			<div class = "inner-footer">
+				<p>EFRYGIN, Copyright &copy; 2022 EFRYGIN.000WEBHOSTAPP.COM</p>
+			</div>
+        </footer>
+
+		<!--Overlaying windows-->	
+		<div id = "overlay" onclick = "off()">
+			<div id = "text">
+				<p>Call to: <a href = "tel:+358403680863">+358403680863</a></p>
+				<p>Email to: <a href = "mailto:efrygine@mail.ru">efrygine@mail.ru</a></p>
+			</div>
+		</div>
+
+		<div id = "introduction" onclick = "off()">
+			<div id = "textintro">
+				<p> Click anywhere to skip the tutorial. <br> <br>
+					This project is an implementation of a breadth-first search algorithm implemented in JavaScript programming language. 
+					This algorithm guarantees getting the shortest path from the starting node to the finishing node, in case there is a path. 
+					The memory consumption of this algorithm gorws
+					proportionally to the distance between the start and finish. 
+					In terms of the big O notation, this algorithm takes approximately O(log(n²)) time to finish, 
+					where n is the number of tiles between the starting position and the finish. <br> <br>
+					Apart from the pathfinding algorithm, this project includes a maze-generating algorithm based on recursive
+					division and a zigzaging recursive algorithm added by me to make mazes look pretier. <br> <br>
+					You can change locations of the starting and finishing nodes by pressing buttons in the upper section 
+					of the web page, as well as use the above-described functions on the given board. You can create
+					'walls' by clicking anywhere on the grid. 'Clear board' clears everything that was created by you, 
+					'clear path' deletes only the path nodes. <br> <br>
+					Have fun!
+				</p>
+			</div>
+		</div>
+	
+		<script>
+			function on() {
+				document.getElementById("overlay").style.display = "block";
+			}
+
+			function off() {
+				document.getElementById("overlay").style.display = "none";
+				document.getElementById("introduction").style.display = "none";
+			}
+		</script>
+		<!--Overlaying windows-->
+	</body>
+
+</html>

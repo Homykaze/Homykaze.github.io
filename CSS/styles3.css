@@ -1,0 +1,410 @@
+/*Global*//*Global*//*Global*//*Global*//*Global*//*Global*//*Global*//*Global*/
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif, Arial;
+	padding: 0;
+	margin: 0;
+	background-color: #E5E5E5;
+}
+
+abbr{
+	text-decoration: none;
+	cursor: pointer;
+}
+/*Global*//*Global*//*Global*//*Global*//*Global*//*Global*//*Global*//*Global*/
+
+
+/*Upper-header*//*Upper-header*//*Upper-header*//*Upper-header*//*Upper-header*//*Upper-header*/
+.preheader{
+	background-color: #000000;
+	color: #E5E5E5;
+	min-height: 30px;
+}
+
+.preheader .contact1{
+	padding: 4px 0 0 25%;
+	float: left;
+}
+
+.contact2{
+	float: right;
+	padding: 4px 31.4% 0 0;
+}
+/*Upper-header*//*Upper-header*//*Upper-header*//*Upper-header*//*Upper-header*//*Upper-header*/
+
+
+/*Main header*//*Main header*//*Main header*//*Main header*//*Main header*//*Main header*/
+header{
+	/*Blurry effect*/
+	-webkit-backdrop-filter: blur(40px);
+	backdrop-filter: blur(40px); 
+	opacity:0.6;
+	background-color:#666666;
+	/*Blurry effect*/
+	min-height: 45px;
+}
+
+header ul
+{
+	margin:0;
+	padding:2px 0 0 0;
+}
+
+.heading a
+{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.heading li
+{
+	float:left;
+	display: inline;
+	padding: 10px 10px 0 10px;
+	font-size: 16px;
+	margin: 0 26px 0 26px;
+}
+
+.heading h1{
+	margin:0;
+}
+
+.highlight{
+	float:left;
+	padding:0 15px 0 24.6%;
+	text-shadow: 1px 1px 0px #000000;
+}
+
+.imaging{
+	width:100%;
+	background: url('../Images/showcase1.jpg') -500px -1600px;
+}
+
+.current{
+	text-shadow: 4px 4px 1px #000000;
+}
+/*Main header*//*Main header*//*Main header*//*Main header*//*Main header*/
+
+/*Overlaying effects*/
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#text a{
+	color:#FCA311;;
+}
+/*Overlaying effects*/
+
+
+/*Services list*/
+.services1{
+	text-align: center;
+	padding:50px;
+	text-shadow: 1px 1px 4px #ffffff;
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px); 
+}
+
+.services1 h1
+{
+	color: #14213D;
+	font-size: 30px;
+}
+
+.services1 li
+{
+	list-style-type: none;
+	color: #14213D;
+	font-size: 20px;
+}
+
+.services2{
+	text-align: center;
+	padding:50px;
+}
+
+.services2 p
+{	
+	color: #14213D;
+	font-size: 20px;
+}
+
+.top
+{
+	margin-top:50px;
+}
+
+.services2 a
+{
+	color: #FCA311;
+	text-shadow: 1px 1px 2px #14213D;
+}
+/*Services list*/
+
+.phone{
+	background-color: #FCA311;;
+	height:55px;
+	width:55px;
+	border-radius: 30px;
+	padding:5px 0 0 5px;
+	position:fixed;
+	margin:10px 0 0 10px;
+}
+
+.call
+{
+	background: url('../Images/phone.png');
+	background-repeat: no-repeat;
+	background-size: 50px;
+	height:50px;
+	width:50px;
+	margin:0;
+}
+
+
+
+
+/*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*/
+.newsletter
+{
+	min-height: 70px;
+	padding:0;
+	margin:50px 0 0 0;
+	position: relative;
+  	background: #000000;
+  	padding: 7px 0 7px 0;
+}
+
+.newsletter h1
+{
+	margin:0 0 0 8%;
+}
+
+.inner-box
+{
+	padding-top:0;
+	background: #000000;
+ 	color: #ffffff;
+ 	padding:3rem;
+ 	padding-top: 35px;
+	min-height: 25px;
+}
+
+.inner-box h1
+{
+	float:left;
+	color: #E5E5E5;
+	font-weight: 500;
+	padding-top:3px;
+	font-size:30px;
+	padding:0;
+}
+
+.button1
+{
+	float:left;
+	border: 0;
+	background-color: #E5E5E5;
+	min-height:25px;
+	padding:10px;
+	font-size:19px;
+	color:#173A51;
+	margin-left:10px;
+	transition: 0.2s all;
+}
+
+.button1:hover
+{
+	background-color:#14213D;
+	cursor:pointer;
+	color:#FCA311;
+	transform: scale(0.99);
+}
+
+.email1
+{
+	float:left;
+	height:36px;
+	width: 50%;
+	font-size:19px;
+}
+
+.form1
+{
+	width:30%;
+	float:right;
+	padding-right:0;
+}
+/*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*/
+
+
+
+/*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*/
+footer
+{
+	margin-top:0;
+	background: #14213D;
+	width:100%;
+	text-align: center;
+	min-height:120px;
+	float:left;
+	position:relative;
+	padding-top:4px;
+}
+
+footer p
+{
+	padding-top:55px;
+	margin:0;
+	color:#E5E5E5;
+}
+
+.inner-footer
+{
+	background: #000000;
+	height:120px;
+}
+/*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*/
+
+
+
+
+
+@media(max-width: 1350px)
+{
+	/*Header*//*Header*//*Header*//*Header*//*Header*//*Header*//*Header*//*Header*/
+	header
+	{
+		float: none;
+		width: 100%;
+		padding:0;
+	}
+
+	.heading h1{
+		text-align: center;
+		padding:0 50px 0 0;
+	}
+
+	header nav li{
+		float: none;
+		text-align: center;
+		width:80%;
+	}
+
+	.preheader, .contact1, .contact2{
+		float: none;
+		margin:0;
+		padding:0;
+		min-height:23px;
+		text-align: center;
+	}
+
+	.highlight{
+		float:none;
+		width: 100%;
+		padding:0 0 0 50px;
+		color:#000000;
+		text-shadow: 1px 1px 0px #000000;
+		height:30px;
+	}
+
+	.preheader .contact1{
+		padding:0;
+		width: 100%;
+	}
+
+	header
+	{
+		padding-bottom: 20px;
+		min-height:260px;
+	}
+
+	.imaging{
+		background: url('../Images/showcase.jpg') -1500px -2265px;
+	}
+	/*Header*//*Header*//*Header*//*Header*//*Header*//*Header*//*Header*//*Header*/
+
+	/*Slide show*/
+	.container{
+		width: 80%;
+	}
+
+	.slide-show{
+		margin: 0 0 0 17%;
+	}
+	/*Slide show*/
+
+
+
+	/*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*/
+	.newsletter form{
+		float: none;
+		text-align: center;
+		width: 100%;
+		min-height:75px;
+	}
+
+	.newsletter h1{
+		float: none;
+		text-align: center;
+		width: 90%;
+		min-height:75px;
+	}
+
+	.newsletter button
+	{
+		display: block;
+		width: 100.8%;
+		margin:0;
+		padding:10px 0 10px 0;
+	}
+
+	.newsletter form input[type = "email"], .newsletter textarea
+	{
+		margin:0 0 10px 0;
+		width: 100%;
+	}
+	/*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*//*Newsletter box*/
+}
+
+@media(max-width: 1000px)
+{
+	/*Newsletter*/
+	.newsletter h1{
+		margin-bottom: 30px;
+	}
+
+	.newsletter button
+	{
+		display: block;
+		width: 102%;
+		margin:0;
+		padding:10px 0 10px 0;
+	}
+	/*Newsletter*/
+}
