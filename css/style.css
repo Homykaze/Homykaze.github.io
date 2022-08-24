@@ -567,6 +567,8 @@ footer .btn:hover{
         width: 90%;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         padding: 1rem;
+        border: none;
+        border-radius: 10px;
     }
 
     .education .edu1{
