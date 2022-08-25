@@ -472,12 +472,16 @@ footer .btn:hover{
 
 @media(min-width: 2600px){
     .container{
-        max-width: 1800px;
+        max-width: 1900px;
     }
 
     .project1, .project2, .project3, .project4{
         max-width: 400px;
         max-height: 400px;
+    }
+
+    footer .container{
+        min-height:300px;
     }
 
     html{
