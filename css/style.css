@@ -173,12 +173,22 @@ section{
 
 .projects .title{
     padding-top: 25vh;
+    margin-bottom: 15px;
 }
 
 .projects .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.projects p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.projects p a{
+    color: #6ca1b0;
 }
 
 .project1, .project2, .project3, .project4{
@@ -275,7 +285,8 @@ section{
 .education .edu1{
     width: 33.3%;
     background-color: #6ca1b0;
-    border: 2px solid #eaeaea;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
     clip-path: polygon(0 0, 98% 0, 92% 100%, 0 100%);
     padding:10px 30px 10px 10px;
 }
@@ -283,10 +294,9 @@ section{
 
 .education .edu2{
     width: 33.3%;
-    background-color: #eaeaea;
-    color:#101010;
+    background-color: #353535;
+    color:#eaeaea;
     text-align: center;
-    border: 2px solid #6ca1b0;
     clip-path: polygon(8% 0%, 98% 0, 92% 100%, 2% 100%);
     padding:10px 30px;
 }
@@ -296,7 +306,8 @@ section{
     background-color: #bbff3d;
     color:#101010;
     text-align: right;
-    border: 2px solid #eaeaea;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     clip-path: polygon(8% 0%, 100% 0, 100% 100%, 2% 100%);
     padding:10px 10px 10px 30px;
 }
@@ -381,6 +392,11 @@ section{
     font-size: 1.5rem;
 }
 
+.certificates p a{
+    text-decoration: underline;
+    color:#eaeaea;
+}
+
 .certificates .container p{
     color:#6ca1b0;
     margin-bottom: 2rem;
@@ -461,6 +477,10 @@ footer .btn:hover{
 /* OVERLAYING EFFECT ABOVE*/
 
 @media(min-width: 2000px){
+    ::-webkit-scrollbar {
+        width: 14px;
+    }
+
     .container{
         max-width: 1400px;
     }
@@ -471,6 +491,10 @@ footer .btn:hover{
 }
 
 @media(min-width: 2600px){
+    ::-webkit-scrollbar {
+        width: 24px;
+    }
+
     .container{
         max-width: 1900px;
     }
@@ -683,5 +707,15 @@ footer .btn:hover{
 
     .certificates{
         margin-bottom: 50vh;
+    }
+}
+
+@media(max-width: 250px){
+    html{
+        font-size: 0.5rem;
+    }
+
+    *{
+        overflow-x: hidden;
     }
 }
