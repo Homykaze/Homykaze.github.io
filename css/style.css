@@ -350,9 +350,9 @@ section{
 }
 
 .skills .front{
-    border: 2px solid #6ca1b0; 
-    box-shadow: 0 0 10px #6ca1b0;
-    color: #6ca1b0;
+    border: 2px solid purple; 
+    box-shadow: 0 0 10px purple;
+    color: purple;
 }
 
 .skills .back{
@@ -361,15 +361,15 @@ section{
     color: #bbff3d;
 }
 
-.skills .phone{
+.skills .devops{
     border: 2px solid #eaeaea;
     box-shadow: 0 0 10px #eaeaea;
 }
 
-.skills .devops{
-    border: 2px solid purple;
-    box-shadow: 0 0 10px purple;
-    color: purple;
+.skills .programming{
+    border: 2px solid #6ca1b0;
+    box-shadow: 0 0 10px #6ca1b0;
+    color: #6ca1b0;
 }
 
 .tech-skills{
