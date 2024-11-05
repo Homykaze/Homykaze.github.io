@@ -350,26 +350,27 @@ section{
 }
 
 .skills .front{
-    border: 2px solid purple; 
+    border: 2px solid #eaeaea;
+    box-shadow: 0 0 10px #eaeaea;
+    color: #eaeaea;
+}
+
+.skills .back{
+    border: 2px solid purple;
     box-shadow: 0 0 10px purple;
     color: purple;
 }
 
-.skills .back{
-    border: 2px solid #bbff3d;
-    box-shadow: 0 0 10px #bbff3d;
-    color: #bbff3d;
-}
-
 .skills .devops{
-    border: 2px solid #eaeaea;
-    box-shadow: 0 0 10px #eaeaea;
+    border: 2px solid #6ca1b0;
+    box-shadow: 0 0 10px #6ca1b0;
+    color: #6ca1b0;;
 }
 
 .skills .programming{
-    border: 2px solid #6ca1b0;
-    box-shadow: 0 0 10px #6ca1b0;
-    color: #6ca1b0;
+    border: 2px solid #bbff3d;
+    box-shadow: 0 0 10px #bbff3d;
+    color: #bbff3d;
 }
 
 .tech-skills{
